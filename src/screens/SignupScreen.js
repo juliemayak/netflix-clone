@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react';
-import Footer from '../components/Footer';
 import { auth } from '../firebase';
 //styles
 import './SignupScreen.css';
