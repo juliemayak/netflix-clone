@@ -13,6 +13,7 @@ import LoginScreen from './screens/LoginScreen';
 //Styling
 import './App.css';
 import Footer from './components/Footer';
+import Info from './components/Info';
 
 function App() {
   const user = useSelector(selectUser);
@@ -43,6 +44,7 @@ function App() {
         {!user ? (
           <>
             <LoginScreen />
+            <Info />
             <Footer />
           </>
         ) : (
