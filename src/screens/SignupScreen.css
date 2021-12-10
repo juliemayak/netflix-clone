@@ -1,0 +1,90 @@
+.signupScreen {
+  max-width: 450px;
+  padding: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.75);
+  margin-top: -5%;
+}
+.signupScreen > form {
+  display: flex;
+  flex-direction: column;
+}
+.signupScreen > form > h1 {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.signupScreen > form > input {
+  padding: 10px;
+  outline-width: 0;
+  height: 40px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+  background-color: #333;
+  color: white;
+}
+
+.signupScreen > form > input:-webkit-autofill,
+.signupScreen > form > input:-webkit-autofill:hover,
+.signupScreen > form > input:-webkit-autofill:focus,
+.signupScreen > form > input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #454545 inset;
+  -webkit-text-fill-color: #fff;
+  box-shadow: 0 0 0 30px #454545 inset;
+}
+.signupScreen > form > input::-webkit-input-placeholder {
+  color: rgb(173, 173, 173);
+}
+
+.signupScreen > form > button {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.signupScreen__details {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  color: #b3b3b3;
+}
+
+.signupScreen__detailsCheckbox {
+  display: flex;
+  align-items: center;
+}
+.signupScreen__detailsCheckbox > input {
+  margin-right: 5px;
+}
+.signupScreen > form > h4 {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.signupScreen__gray {
+  color: #737373;
+}
+.signupScreen__link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.signupScreen > form > p {
+  font-size: 13px;
+  color: #8c8c8c;
+  text-align: left;
+}
+
+.signupScreen__blue {
+  cursor: pointer;
+  color: #0071eb;
+}
+.signupScreen__blue:hover {
+  text-decoration: underline;
+}
