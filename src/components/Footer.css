@@ -24,11 +24,14 @@
   padding-left: 10px;
   padding-bottom: 0;
 }
-.footer__call {
+.footer__call > a {
   cursor: pointer;
+  text-decoration: none;
+  color: rgb(148, 148, 148);
 }
-.footer__call:hover {
+.footer__call > a:hover {
   text-decoration: underline;
+  color: rgb(206, 206, 206);
 }
 
 .footer__links > ul {

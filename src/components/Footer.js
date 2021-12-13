@@ -6,7 +6,10 @@ function Footer() {
     <div className="footer">
       <div className="footer__contents">
         <p>
-          Questions? <span className="footer__call">Call 8-800-100-9668</span>
+          Questions?{' '}
+          <span className="footer__call">
+            <a href="tel:+7-800-100-9668">Call 8-800-100-9668</a>
+          </span>
         </p>
         <div className="footer__links">
           <ul>
