@@ -9,8 +9,10 @@ import Nav from '../components/Nav';
 import PlansScreen from './PlansScreen';
 //Styling
 import './ProfileScreen.css';
+import { useNavigate } from 'react-router';
 
 function ProfileScreen() {
+  const navigate = useNavigate();
   const user = useSelector(selectUser);
   return (
     <div className="profileScreen">
@@ -27,7 +29,13 @@ function ProfileScreen() {
             <div className="profileScreen__plans">
               <h3>Plans</h3>
               <PlansScreen />
-              <button className="profileScreen__signOut" onClick={() => auth.signOut()}>
+              <button
+                className="profileScreen__signOut"
+                onClick={() => {
+                  auth.signOut();
+                  navigate('/');
+                }}
+              >
                 Sign Out
               </button>
             </div>
