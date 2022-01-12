@@ -102,3 +102,9 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .loginScreen__getStarted {
+    height: 50px;
+  }
+}
