@@ -90,6 +90,8 @@
   width: 30%;
   border: none;
   max-width: 600px;
+  border-radius: 0;
+  -webkit-appearance: none;
 }
 .loginScreen__getStarted {
   padding: 16px 20px;

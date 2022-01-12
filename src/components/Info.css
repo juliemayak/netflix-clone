@@ -152,12 +152,16 @@
 
 .info__video--2 {
   position: absolute;
-  width: 100%;
+  /* width: 100%;
   height: 100%;
   max-width: 67%;
   max-height: 46%;
   top: 10%;
-  left: 16%;
+  left: 16%; */
+  width: 63%;
+  height: 61%;
+  top: 3%;
+  left: 18%;
   z-index: -1;
 }
 .info__video--2 > video {
